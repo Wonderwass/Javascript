@@ -21,7 +21,8 @@ if (nb1 > 50) {
     console.log("nb1 est bien supérieur à 50");
 } else {
     console.log("nb1 n'est pas supérieur à 50");
-} else if (nb1 == 50) {
+} 
+if (nb1 == 50) {
     console.log("Je ne suis pas dans else if");
     // si if n'est pas true et que else if est true et tu rajoute entre parenthése une condition 
 } else {
