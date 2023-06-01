@@ -17,8 +17,10 @@ var last = fruits[fruits.length - 1];
 var couleurs = ['rouge', 'vert', 'bleu'];
 for (var w = 0; w < couleurs.length; w++) { // tant qu'il est inferieur au nombre d'ellement (tableau)
     console.log(couleurs[w]);
-    document.write("<p>"+couleurs[w]+"</p>")
+  document.write("<p>" + couleurs[w] + "</p>")
+  
 }
+
 //Affichage à partir du dernier élément
 for (var w = 2; w >= 0; w--) {
     console.log(couleurs[w]);
@@ -32,11 +34,13 @@ for (var w = 2; w >= 0; w--) {
 }
     
 
-// AU LIEU DE MODIFIER LE TABLEAU ON EN CREE UN AUTRE IDENTIQUE
+// AU LIEU DE CREER UN NOUVEAU TABLEAU ON MODIFIE LE CONTENU DU TABLEAU INITIAL 
 
 //Ajouter à la fin du tableau
-var newLength = fruits.push('Orange'); // CEST fruits push qui donne la valeur de retour 
+// (ICI AJOUTER UN ELEMENT A LA FIN DU TABLEAU A L'AIDE DE LA FONCTION PUSH QUI PREND EN PARAMETRE UN ELEMENT ET QUI RETOURNE LA NOUVELLE TAILLE DU TABLEAU)
+var newLength = fruits.push('Orange'); // CEST fruits push qui donne la valeur de retour
 // ["Apple", "Banana", "Orange"]
+//newLength est une valeur qui stocke une nouvelle longeur ou taille
 
 //Supprimer le dernier élément du tableau
 var last = fruits.pop(); // supprime Orange (à la fin)
