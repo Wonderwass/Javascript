@@ -5,7 +5,6 @@ let plus = document.getElementById("plus");
 let moins = document.getElementById("moins");
 let multiplications = document.getElementById("multiplications");
 let division = document.getElementById("division");
-
 let egale = document.getElementById("egale");
 let resultat = document.getElementById("resultat");
 let operation;

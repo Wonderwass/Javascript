@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="nb_mystere.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/user-secret?f=classic&s=solid"
+    />
+  </head>
+  <body>
+    <div class="regle">
+      <div>
+        <h1>Trouvez le nombre mystère!</h1>
+        <i class="fa-duotone fa-user-secret"></i>
+        <p>
+          Regle du jeu >  <br> Vous avez 7 essais pour trouver le nombre. <br> Bon
+          courage!
+        </p>
+      </div>
+      <div class=" proposition">
+        <button id="newgame">Nouveau jeu</button>
+        <button id="solution">Solution</button>
+        <button id="propose">Proposer</button>
+      </div>
+        <form>
+            <fieldset>
+                <div class="ligne">
+                    <label for="proposition">Proposition :</label>
+                    <input type="text" id="proposition">
+                </div>
+    
+                <div class="ligne">
+                    <label for="essai">N°essai</label>
+                    <input type="text" id="essai" value="1" disabled>
+                </div>
+    
+                <div class="ligne">
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" disabled>
+                </div>
+    
+                <div class="ligne">
+                    <label for="reponse">Reponse:</label>
+                    <input type="text" id="reponse" disabled>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+<script src="nb_mystere.js"></script>
+  </body>
+</html>
